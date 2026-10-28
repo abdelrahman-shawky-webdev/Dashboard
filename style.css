@@ -157,35 +157,6 @@ th{
 .pending{
     background-color: red;
 }
-footer{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-    margin-top: 20px;
-    text-align: center;
-}
-footer p{
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-.social-links{
-    list-style: none;
-    display: flex;
-    gap: 40px;
-}
-.social-links a i{
-    font-size: 30px;
-}
-.fa-whatsapp{
-    color: green;
-}
-.fa-instagram{
-    color:  rgb(41, 6, 73);
-}
-.fa-x-twitter{
-    color: black;
-}
 @media (max-width:600px){
     footer{
         flex-direction: column;
